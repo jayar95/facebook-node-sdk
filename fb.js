@@ -8,7 +8,7 @@ import QS from 'querystring';
 import crypto from 'crypto';
 import FacebookApiException from './FacebookApiException';
 
-var {version} = require('../package.json'),
+var {version} = require('./package.json'),
 	debugReq = debug('fb:req'),
 	debugSig = debug('fb:sig'),
 	METHODS = ['get', 'post', 'delete', 'put'],
